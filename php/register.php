@@ -19,7 +19,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             // $cursor->insert(["_id"=> $row["ID"], "email"=>$data->email, "firstname"=>$data->firstname, "lastname"=>$data->lastname, "dob"=>$data->dateofbirth]);
             $res = array("success"=>true, "data" => array("email"=>$data->email, "id"=>$row["ID"]));
             // $result = $mongo->executeBulkWrite('guvi.users', $cursor);
-            echo $result;
             $res_obj = $res;
         }
       } else {
