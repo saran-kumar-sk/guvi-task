@@ -1,0 +1,12 @@
+html, body{
+    background-image: url("../assets/images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.box{
+    padding: 20px;
+    background-color: rgba(17, 15, 15, 0.233);
+    width: 5ovw;
+    border-radius: 15px;
+}
